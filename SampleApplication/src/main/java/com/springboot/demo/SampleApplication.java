@@ -19,7 +19,9 @@ public class SampleApplication {
 	class MyRestController{
 		@RequestMapping("/say")
 		public String sayHello(){
+			System.out.println("hiiiiiiiiiiiiii");
 			return "Hi This is spring boot application!";
+			
 		}
 	}
 	
